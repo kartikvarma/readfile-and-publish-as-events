@@ -1,0 +1,5 @@
+spring:
+  batch:
+    schema: classpath:org/springframework/batch/core/schema-hsqldb.sql
+    table-prefix: BATCH_
+    initialize-schema: embedded
